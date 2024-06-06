@@ -1,22 +1,20 @@
-import Home from "../src/pages/components/Home.tsx";
-import About from "../src/pages/components/About.tsx";
-import Projects from "../src/pages/components/Projects.tsx";
-import Work from "../src/pages/components/Work.tsx";
-import Education from "../src/pages/components/Education.jsx";
-import Contact from "../src/pages/components/Contact.jsx";
 import './App.css';
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/Hero.jsx";
+import Portfolio from './components/Portfolio.jsx';
+import Contact from './components/Contact.jsx';
+import About from './components/About.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   return (
     <div className="App">
-      <div className="contents">
-        <Home />
-        <About />
-        <Projects />
-        <Work />
-        <Education />
-        <Contact />
-      </div>
+      <Navbar />
+      <Hero />
+      <Portfolio />
+      <About />
+      <Contact />
+      <Footer />
     </div>
   );
 }
