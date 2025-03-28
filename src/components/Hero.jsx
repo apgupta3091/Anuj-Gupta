@@ -11,7 +11,7 @@ import {
     DiSass,
     DiBootstrap
 } from "react-icons/di";
-import resume from "../docs/Anuj_Gupta_Resume.pdf";
+import resume from "../docs/Anuj Gupta Resume.pdf";
 
 const Hero = () => {
   return (
@@ -34,7 +34,7 @@ const Hero = () => {
                         repeat={Infinity}
                     />
                 </p>
-                <p className='text-xl md:text-3xl font-semibold text-gray-400'>with 2+ years experience</p>
+                <p className='text-xl md:text-3xl font-semibold text-gray-400'>with 3+ years experience</p>
                 <a href={resume} download={resume}><button className='mt-4 px-4 py-2 text-lg font-bold text-white bg-primary-color rounded-xl'
                 download
                 >Download CV</button></a>

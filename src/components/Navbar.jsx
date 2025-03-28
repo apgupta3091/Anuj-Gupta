@@ -17,9 +17,9 @@ const Navbar = () => {
         <div className="text-gray-200 max-w-[1200px] h-24 mx-auto flex justify-between items-center text-lg px-4 md:px-0">
             <h1 className="text-3xl font-bold">A. GUPTA</h1>
             <ul className="hidden md:flex">
-                <li className="p-5 cursor-pointer"><Link smooth offset={50} duration={500} to="portfolio">Portfolio</Link></li>
-                <li className="p-5 cursor-pointer"><Link smooth offset={50} duration={500} to="about">Experience</Link></li>
-                <li className="p-5 cursor-pointer"><Link smooth offset={50} duration={500} className="px-4 py-2 rounded-xl bg-primary-color" to="contact">Contact</Link></li>
+                <li className="p-5 cursor-pointer"><Link smooth offset={-50} duration={500} to="portfolio">Portfolio</Link></li>
+                <li className="p-5 cursor-pointer"><Link smooth offset={-50} duration={500} to="about">Experience</Link></li>
+                <li className="p-5 cursor-pointer"><Link smooth offset={-50} duration={500} className="px-4 py-2 rounded-xl bg-primary-color" to="contact">Contact</Link></li>
             </ul>
             <div onClick={handleNav} className="block md:hidden z-40">
                 {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
